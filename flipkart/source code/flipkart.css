@@ -1,0 +1,99 @@
+body{
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(46, 118, 250);
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+.header *{
+    margin-top: 7px;
+    margin-right: 25px;
+    color: aliceblue;
+}
+.login{
+    color: rgb(46, 118, 250);
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.search{
+    width: 300px;
+    margin-right: 0;
+    border: none;
+    height: 36px;
+}
+.fa-magnifying-glass{
+    color: rgb(46, 118, 250);
+    padding: 10px;
+    background-color: white;
+    margin-left: 0;
+}
+.dropdown{
+    border: none;
+    background-color: rgb(46, 118, 250);
+    
+}
+.nav-bar{
+    height: 50px;
+    background-color: white;
+}
+.nav-bar div div select, .nav-bar div div{
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.body{
+    /* background-color: white; */
+    font-size: 16px;
+}
+.top{
+    border-bottom: 1px rgb(197, 195, 195) solid;
+}
+.img-container{
+    height: 250px;
+}
+img{
+    height: 200px;
+    margin-bottom: 15px;
+}
+.phone-box{
+    margin-top: 15px;
+}
+.price-cut{
+    font-size: 14px;
+}
+.assured{
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: -15px;
+}
+.features{
+    font-size: 14px;
+}
+.star{
+    background-color: rgb(2, 151, 2);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+.phone-box .row{
+    /* border: 2px solid; */
+    
+}
+.body-left, .body-right{
+    background-color: white;
+    border-radius: 7px;
+}
